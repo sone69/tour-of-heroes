@@ -1,0 +1,38 @@
+.heroes {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  width: 240px;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  background-color: #eee;
+  margin: 8px;
+  padding: 5px;
+  height: 25px;
+  border-radius: 4px;
+}
+.heroes li:hover {
+  color: darkblue;
+  background-color: #ddd;
+  left: 1.6px;
+}
+.heroes li.selected {
+  background-color: lemonchiffon;
+  color: brown;
+  left: 1.6px;
+}
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 5px 10px;
+  background-color: blue;
+  position: relative;
+  top: -5px;
+  left: -4px;
+  height: 25px;
+  margin-right: 13px;
+  border-radius: 4px 0 0 4px;
+}
