@@ -1,17 +1,18 @@
 label {
   display: inline-block;
   width: 48px;
-  margin: 8px 0;
-  color: darkslategray;
+  margin: 0.5em 0;
+  color: #607d8b;
   font-weight: bold;
 }
 input {
-  height: 25px;
+  height: 28px;
   font-size: 16px;
-  padding-left: 6px;
+  padding-left: 7px;
 }
 button {
   margin-top: 20px;
+  margin-right: 10px;
   font-family: Arial;
   background-color: #eee;
   border: none;
